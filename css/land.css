@@ -25,7 +25,6 @@ float: left;}
   color: #007799;
 font-family: Arial;
 font-size: 20px;}
-
 .bread li a:hover{
  color:#039BE5;
 }
@@ -33,7 +32,7 @@ font-size: 20px;}
 #active{
   color: white;
 }
-.fb-like{float: left;margin-left:930px;margin-top:17.5px}
+.fb-like{float: left;}
 #login{
     margin-left: 1150px;
     margin-top: 5px;
@@ -295,18 +294,19 @@ box-sizing: border-box;}
 #pacman{width: 20px;height: 20px;margin-top: 16px;}
 #news{width: 45px;height:45px;margin-left: 240px}
 h1{font-size: 26px;margin-top: 12px;margin-left: 15px}
+.fb-like{display:none;}
 #story{clear: both;margin-left: 123px;margin-top:65px}
 #frozen{margin-top: 65px;}
 .a {margin-top: -170px}
 .b{margin-top: -170px;margin-left: 330px}
 .c{clear: both;margin-left:50px ;margin-bottom: 10px}
 .d{margin-left: 2px;margin-bottom: 10px}
-hr{width: 700px;}
+hr{width: 700px;display: none;display: none;}
 #hotel{margin-left: 67px}
 #ticket{clear:both;margin-left:175px;
 margin-top:20px;}
 #traff{margin-top: 20px;}
-#hahaha{width: 768px;height: 207px;margin-top: 50px}
+#hahaha{width: 768px;height: 207px;margin-top: 50px;ma}
 footer{width: 768px;margin-left: 0px;height: 130px;}
 #fb{width: 45px;height: 45px;margin-left: 227px;}
 #ig{width: 45px;height: 45px;}
