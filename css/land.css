@@ -1,0 +1,371 @@
+body{
+   background-color: #B0E0E6;
+   width: 1280px;
+   margin: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+.container{
+   width: 100%;
+}
+.top{
+   background-color: #008888;
+   height: 120px;}
+  #pacman{height: 25px;width: 25px;float: left;
+    margin-left:20px;margin-top: 14px;}
+.bread{margin-left: -20px;float: left;}
+.bread  li{
+  display: inline;
+  color: #007799;
+ font-family: Arial;
+font-size: 20px;
+float: left;}
+.bread a{
+  text-decoration: none;
+  color: #007799;
+font-family: Arial;
+font-size: 20px;}
+
+.bread li a:hover{
+ color:#039BE5;
+}
+.share{float:left;}
+#active{
+  color: white;
+}
+.fb-like{float: left;}
+#login{
+    margin-left: 1150px;
+    margin-top: 5px;
+    cursor: pointer;}
+#logo{
+    margin-left: 485px;
+    margin-top: -30px;
+}
+#slider {
+  float: left;
+  clear:both;
+    width: 1280px;
+    height:720px;
+    overflow: hidden;
+}
+#slider .slides {
+    display: block;
+    width: 3840px;
+    height:720px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1280px;
+    height: 720px;
+}
+/* helper css, since we don't have images */
+.slide1 {background: #008888;}
+.slide2 {background: #008888;}
+.slide3 {background: #008888;}
+#logoland{
+  margin-top: 10px;
+  float: left;
+  margin-left:18px; }
+.nav ul{
+  float: left;
+  margin-left:-70px;
+  margin-top: 40px;
+}
+.nav li{
+  list-style: none;
+  float:left;
+  display: inline;
+  margin-left:80px;
+  height: 34px;
+  width:130px;
+  background-color: #009FCC;
+  text-align: center;
+  border-radius: 4px;
+  padding-top: 2px;
+  box-sizing: border-box;
+}
+.nav a{
+  text-decoration: none;
+  color: #007799;
+font-family: Arial;
+font-size: 26px;
+font-weight: bold;
+color:white;
+}
+.nav li:hover > a {
+	color:#007799;
+}
+
+#news{
+  clear: both;
+  margin-left:483px;;
+  float:left;
+margin-top: 4px}
+h1{
+  font-family: Arial;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  color:#008888;
+}
+#newyear{
+  clear: both;
+  margin-left: 123px;
+  margin-top: 10px;
+  float: left;
+}
+#startours{
+  margin-left: 70px;
+  margin-top: 10px;
+  float: left;
+}
+#story{
+  margin-left: 70px;
+  margin-top: 10px;
+  float: left;
+}
+#frozen{
+  margin-left: 70px;
+  margin-top: 10px;
+  float: left;
+}
+.a h3 {
+  margin-left: 123px;
+  width: 206px;
+  text-align: center;
+  font-family: Arial;
+  color:#008888;
+  margin-top: 10px;
+}
+.a
+{
+clear: both;
+float:left;}
+
+.b h3 {
+
+  margin-left:70px;
+  width: 206px;
+  text-align: center;
+  font-family: Arial;
+  color:#008888;
+  margin-top: 10px;
+}
+.b
+{
+  float:left;
+}
+.c h3 {
+
+  margin-left:70px;
+  width: 206px;
+  text-align: center;
+  font-family: Arial;
+  color:#008888;
+  margin-top: 10px;
+}
+.c
+{float:left;
+}
+
+.d h3 {
+
+  margin-left:70px;
+  width: 206px;
+  text-align: center;
+  font-family: Arial;
+  color:#008888;
+  margin-top: 10px;
+}
+.d
+{float:left;
+}
+#hotel{
+  margin-left: 110px;
+  margin-top: 10px;
+  clear: both;
+  float: left;
+}
+#info{
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+}
+#map{
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+}
+#ticket{
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+}
+#traff{
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+}
+#hahaha{clear: both;
+margin-top: 40px;}
+
+footer{
+  clear: both;
+    height: 160px;
+    background-color: #008888;
+    margin-top:-10px;
+}
+#fb{
+    margin-left:463px;
+    margin-top: 25px;
+    float: left;
+    cursor: pointer;
+  }
+#ig{
+   margin-left: 80px;
+   margin-top: 25px;
+   float: left;
+   cursor: pointer;
+}
+#yt{
+   margin-left: 80px;
+   margin-top: 25px;
+   float: left;
+   cursor: pointer;
+}
+footer p{
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  clear: both;
+  padding-top: 25px;
+}
+@media screen and (max-width: 768px) {
+.container{
+width: 60%;
+}
+.top{height: 100px;}
+#login{margin-left:650px;
+width: 80px;
+height: 40px;
+}
+#logo{margin-top: -35px;
+margin-left:210px;
+display: block;}
+.bread li{font-size: 14px;margin-bottom: 10px;}
+.bread a{font-size: 14px;margin-bottom: 10px;}
+.slider img {height: 432px;
+width: 760px;}
+/*#slider .slide {
+
+    list-style-type: none;
+    width: 768px;
+    height:432px;
+}
+#slider {
+  float: left;
+  clear:both;
+    width: 768px;
+    height:432px;
+    overflow: hidden;
+}
+#slider .slides {
+    display: block;
+    width: 2340px;
+    height:432px;
+    margin: 0;
+    padding: 0;
+}*/
+#logoland{width: 300px;
+height: 62px;}
+.nav ul {clear:both;margin-left: -90px;margin-top: 8px}
+.nav li{margin-left:87px;width: 100px;
+height: 28px;
+padding-top: 4px;}
+.nav a {font-size:18px;
+box-sizing: border-box;}
+.nav ul li:nth-child(3)
+{ margin-right: 10px;}
+#pacman{width: 20px;height: 20px;margin-top: 16px;}
+#news{width: 45px;height:45px;margin-left: 240px}
+h1{font-size: 26px;margin-top: 12px;margin-left: 15px}
+#story{clear: both;margin-left: 123px;margin-top:65px}
+#frozen{margin-top: 65px;}
+.a {margin-top: -170px}
+.b{margin-top: -170px;margin-left: 330px}
+.c{clear: both;margin-left:50px ;margin-bottom: 10px}
+.d{margin-left: 2px;margin-bottom: 10px}
+hr{width: 700px;}
+#hotel{margin-left: 67px}
+#ticket{clear:both;margin-left:175px;
+margin-top:20px;}
+#traff{margin-top: 20px;}
+#hahaha{width: 768px;height: 207px;margin-top: 50px}
+footer{width: 768px;margin-left: 0px;height: 130px;}
+#fb{width: 45px;height: 45px;margin-left: 227px;}
+#ig{width: 45px;height: 45px;}
+#yt{width: 45px;height: 45px;}
+footer p{font-size: 18px}
+}
+@media screen and (max-width: 320px) {
+.container{
+width: 25%;
+}
+.top{height:85px; }
+#logo{width: 180px;
+height: 54px;
+margin-left: 55px;
+margin-top: -15px;}
+#login{width: 60px;height: 30px;margin-left: 230px}
+.bread {margin-left:-20px; }
+#slider .slide {
+display: none;
+}
+#slider{display: none;}
+#slider.slides{display: none;}
+#logoland{margin-top: -720px;margin-left: -2px}
+.nav ul{margin-top: -5px;}
+.nav ul li{width: 90px;height:25px;
+  font-weight: normal;
+}
+.nav a{font-size: 15px;
+  font-weight: normal;}
+  #pacman{height: 16px;width: 16px;margin-top: 17px;}
+.nav ul li:nth-child(3)
+{clear:both;
+  margin-top: 15px;}
+.nav ul li:nth-child(2)
+{margin-left: 40px;}
+.nav ul li:nth-child(4)
+{margin-left: 30px;margin-top: 15px;}
+hr{width:280px;}
+.hr1{margin-left: 10px;}
+#news{height: 35px;width: 35px;margin-left: 46px;margin-top: 6px;}
+#startours{clear: both;margin-left: 48px;margin-top: 55px;}
+h1{font-size:22px;}
+#newyear{margin-left: 48px;}
+.a{margin-top: -510px;margin-left: -75px;}
+.b{margin-top: -340px;margin-left: -25px;clear: both;}
+#story{margin-left: 49px;margin-top:55px; }
+#frozen{margin-left: 49px;margin-top: 55px;}
+.c{margin-left:-24px;margin-top: -172px;}
+.d{margin-left: -20px;margin-top: -2px;}
+footer{width: 320px;margin-left: 0px;height: 90px;}
+.hr2{margin-left: 10px;}
+#hotel{width:150;height: 150px;margin-left: 76px;margin-top: 18px;}
+#info{width:150;height: 150px;margin-left: 76px;clear:left;margin-top: 18px;}
+#ticket{width:150;height: 150px;margin-left: 76px;margin-top: 18px;}
+#traff{width:150;height: 150px;margin-left: 76px;clear:left;margin-top: 18px;}
+#map{width:150;height: 150px;margin-left: 76px;clear:left;margin-top: 18px;}
+#hahaha{width: 320px;height: 86px;margin-left: -7px;}
+#fb{width: 30px;height: 30px;margin-left:78px;margin-top: 15px;}
+#ig{width: 30px;height: 30px;margin-left: 25px;margin-top: 15px;}
+#yt{width: 30px;height: 30px;margin-left: 25px;margin-top: 15px;}
+footer p{font-size: 13px;margin-top: 20px;margin-left:-20px}
+}

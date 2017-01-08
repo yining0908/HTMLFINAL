@@ -1,0 +1,222 @@
+body{
+   background-color: #B0E0E6;
+   width: 1280px;
+   margin: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+.container{
+   width: 100%;
+}
+.top{
+   background-color: #008888;
+   height: 140px;}
+  #login{
+    margin-left: 1150px;
+    margin-top: 5px;
+    cursor: pointer;}
+#logo{
+    margin-left: 485px;
+    margin-top: 0px;
+}
+.nav ul{
+  float: left;
+  margin-left:40px;
+  margin-top: 20px;
+}
+.nav li:hover > a {
+	color:#007799;
+}
+.nav li{
+  list-style: none;
+  float:left;
+  display: inline;
+  margin-left:120px;
+  height: 34px;
+  width:130px;
+  background-color: #009FCC;
+  text-align: center;
+  border-radius: 4px;
+  padding-top: 2px;
+  box-sizing: border-box;
+}
+.nav a{
+  text-decoration: none;
+  color: #007799;
+font-family: Arial;
+font-size: 26px;
+font-weight: bold;
+color:white;}
+#ticketlogo{
+  clear:both;
+  margin-left: 200px;
+  margin-top: 10px;
+  float:left;
+  width: 40px;
+  height: 40px;
+}
+#price{padding-right: 200px;clear: both;width: 800px;height: 336px}
+h3{margin-left: 15px;
+margin-top: 20px;
+color: #008888;
+font-family: Arial;
+float:left;}
+#qalogo{
+  clear:both;
+  margin-left: 200px;
+  margin-top:350px;
+  float:left;
+  width: 40px;
+  height: 40px;
+}
+#contactlogo{
+  clear:both;
+  margin-left: 200px;
+  margin-top: 10px;
+  float:left;
+  width: 40px;
+  height: 40px;
+}
+#emailicon{
+  clear:both;
+  margin-left: 200px;
+  margin-top: 10px;
+  float:left;
+  width: 40px;
+  height: 40px;
+}
+#trafficicon{
+  clear:both;
+  margin-left: 200px;
+  margin-top: 10px;
+  float:left;
+  width: 40px;
+  height: 40px;
+}
+#mapp{
+  clear: both;
+  margin-left: 240px;
+  margin-top: 15px;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 10px;
+}
+#mapicon{
+  clear:both;
+  margin-left: 200px;
+  margin-top: 10px;
+  float:left;
+  width: 40px;
+  height: 40px;
+}
+h4:nth-child(1)
+{padding-top: 15px;}
+h4{clear: both;
+color: #008888;
+font-family: Arial;
+margin-left: 255px}
+h3{margin-left: 15px;
+margin-top: 20px;
+color: #008888;
+font-family: Arial;
+float:left;}
+iframe{margin-left: 140px;}
+footer{
+  clear: both;
+    height: 160px;
+    background-color: #008888;
+    margin-top: 5px;
+}
+#fb{
+    margin-left:463px;
+    margin-top: 25px;
+    float: left;
+    cursor: pointer;
+  }
+#ig{
+   margin-left: 80px;
+   margin-top: 25px;
+   float: left;
+   cursor: pointer;
+}
+#yt{
+   margin-left: 80px;
+   margin-top: 25px;
+   float: left;
+   cursor: pointer;
+}
+footer p{
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  clear: both;
+  padding-top: 25px;
+}
+@media screen and (max-width: 768px) {
+.container{
+width: 60%;
+}
+.top{height: 100px;}
+#login{margin-left:650px;
+width: 80px;
+height: 40px;
+}
+#logo{margin-top: -35px;
+margin-left:210px;
+display: block;}
+.nav ul li:nth-child(3)
+{clear:both;
+  margin-top: 15px;}
+  .nav ul li:nth-child(4)
+  {margin-top: 15px;}
+  #ticketlogo{margin-left: 25px;}
+#price{width:650px;height: 276px;margin-left:55px }
+#qalogo{margin-top: 11px;margin-left:25px;}
+h4{margin-left: 55px;font-size: 16px;}
+#contactlogo{margin-left: 25px;}
+hr{width: 730px;}
+#emailicon{margin-left: 25px;}
+#trafficicon{margin-left: 25px;}
+#mapicon{margin-left: 25px;}
+#mapp{margin-left: 33px;width: 685px;height: 467px;}
+iframe{margin-left: 20px;width: 720px;}
+footer{width: 768px;margin-left: 0px;height:130px }
+#fb{width: 45px;height: 45px;margin-left: 227px;}
+#ig{width: 45px;height: 45px;}
+#yt{width: 45px;height: 45px;}
+footer p{font-size: 18px}
+}
+@media screen and (max-width: 320px) {
+.container{
+width: 25%;
+}
+.nav ul{margin-left: -30px;}
+.nav li{margin-left:30px;width: 100px;
+height: 28px;padding-top: 4px;}
+.nav a {font-size:18px;
+box-sizing: border-box;}
+.top{height:85px; }
+#logo{width: 180px;
+height: 54px;
+margin-left: 55px;
+margin-top: -15px;}
+#login{width: 60px;height: 30px;margin-left: 230px}
+hr{width: 320px;}
+#ticketlogo{width: 35px;height: 35px;margin-left: 3px;}
+h3{font-size: 16px;}
+#qalogo{width: 35px;height: 35px;margin-left: 3px;}
+h4{font-size: 12px;margin-left: 6px;}
+#contactlogo{width: 35px;height: 35px;margin-left: 3px;}
+#emailicon{width: 35px;height: 35px;margin-left: 3px;}
+#trafficicon{width: 35px;height: 35px;margin-left: 3px;}
+#mapp{width: 310px;height: 213px;margin-left: -5px;}
+#mapicon{width: 35px;height: 35px;margin-left: 3px;}
+#price{width: 320px;height: 142px;margin-left: -13px;}
+iframe{width: 320px;height: 160px;margin-left: -5px;}
+footer{width: 320px;margin-left: 0px;height: 90px;}
+#fb{width: 30px;height: 30px;margin-left:78px;margin-top: 15px;}
+#ig{width: 30px;height: 30px;margin-left: 25px;margin-top: 15px;}
+#yt{width: 30px;height: 30px;margin-left: 25px;margin-top: 15px;}
+footer p{font-size: 13px;margin-top: 20px;margin-left:-20px}
+}
