@@ -38,6 +38,7 @@ font-size: 20px;}
     margin-left: 485px;
     margin-top: -30px;
 }
+.fb-like{float: left;margin-left: 930px;margin-top: 17px;}
 #slider {
     width: 1280px;
     height:720px;
@@ -275,6 +276,7 @@ width: 760px;}
     margin: 0;
     padding: 0;
 }*/
+.fb-like{margin-left: 418px;margin-top: 17px;}
 #logosea{width: 300px;
 height: 62px;}
 .nav ul {clear:both;margin-left: -90px;margin-top: 8px}
@@ -324,6 +326,7 @@ display: none;
 #slider{display: none;}
 #slider.slides{display: none;}
 #logosea{margin-top: -720px;margin-left: -2px}
+.fb-like{margin-left: 12px;margin-top: 19px;}
 .nav ul{margin-top: -5px;}
 .nav ul li{width: 90px;height:25px;
   font-weight: normal;
@@ -347,7 +350,7 @@ h1{font-size:22px;}
 .a{margin-top: -510px;margin-left: -75px;}
 .b{margin-top: -340px;margin-left: -25px;clear: both;}
 #tower{margin-left: 49px;margin-top:55px; }
-#fantasy{margin-left: 49px;margin-top: 55px;}
+#fantasy{margin-left: 49px;margin-top: 55px;clear: both;}
 .c{margin-left:-24px;margin-top: -172px;}
 .d{margin-left: -20px;margin-top: -2px;}
 footer{width: 320px;margin-left: 0px;height: 90px;}
