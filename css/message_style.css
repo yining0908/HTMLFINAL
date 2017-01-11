@@ -39,15 +39,12 @@ body{
 }
 
 
-
 .top img{
   margin-left: 1200px;
   margin-top: 5px;
   position: absolute;
   width: 20px;
-}
-a {
-  text-decoration:none;
+  z-index: 1000;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,12 +52,12 @@ a {
     margin-left: 645px;
     width: 18px;}
 }
+
 @media screen and (max-width: 320px) {
   .top img{
     margin-left: 250px;
     width: 12px;}
 }
-
 
 .login {
   position: absolute;
@@ -69,16 +66,17 @@ a {
   color: white;
   margin-left: 1230px;
   margin-top: 8px;
+  z-index: 1000;
 }
 @media screen and (max-width: 768px) {
   .login {margin-left: 675px;}
 }
+
 @media screen and (max-width: 320px) {
   .login {
     margin-left: 268px;
     font-size: 13px;}
 }
-
 
 hr{
   position: absolute;
@@ -87,6 +85,7 @@ hr{
   margin-left: 45px;
   margin-top: 40px;
   color: white;
+  z-index: 1000;
 }
 
 @media screen and (max-width: 768px) {
@@ -99,7 +98,6 @@ hr{
   margin-top: 30px;}
 }
 
-
 header{
   position:absolute;
   margin-top: 190px;
@@ -110,13 +108,15 @@ header{
   height: 180px;
   box-sizing: border-box;
 }
+
 @media screen and (max-width: 768px) {
   header{
-    margin-top: 90px;
     margin-left: 225px;
     width: 330px;
-    height: 135px;}
+    height: 135px;
+    margin-top: 70px;}
 }
+
 @media screen and (max-width: 320px) {
   header{
     margin-top: 50px;
@@ -130,17 +130,19 @@ header{
   font-size: 60px;
   font-family: Arial;
   color: white;
-  box-sizing: border-box;
   padding-left: 52px;
   margin-bottom: 30px;
   margin-top: 22px;
+  box-sizing: border-box;
+  padding-top: 30px;
 }
 @media screen and (max-width: 768px) {
   .logo p{
     font-size: 43px;
     padding-left: 35px;
     margin-top: 23px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    padding-top: 0px;}
 }
 @media screen and (max-width: 320px) {
   .logo p{
@@ -150,19 +152,20 @@ header{
     margin-bottom: 10px;}
 }
 
-
 .slogan p{
   font-family: Arial;
   font-size: 18px;
   color: 	#AAAAAA;
   text-align: center;
   margin: 0px;
-}
-@media screen and (max-width: 768px) {
-  .slogan p{
-    font-size: 15px;}
+  padding-top: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .slogan p{
+    font-size: 15px;
+  padding-top: 10px;}
+}
 @media screen and (max-width: 320px) {
   .slogan p{
     display: none;
@@ -178,23 +181,21 @@ body img{
   position: relative;*/
 }
 
-
 .side_nav{
   clear: both;
   margin-left: 200px;
 }
 @media screen and (max-width: 768px) {
   .side_nav{
-    margin-left: 20px;}
+    margin-left: 17px;}
 }
-
 
 .side_nav li{
   list-style: none;
   float: left;
   /*margin-left: 200px;*/
   margin-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 320px) {
   .side_nav li{
@@ -203,24 +204,29 @@ body img{
   }
 }
 
+
 .side_nav a{
   color: white;
   font-family: Arial;
-  font-size: 19px;
+  font-size: 16px;
   text-decoration: none;
   display: block;
-  width: 115px;
+  width: 100px;
   height: 20px;
   padding: 15px;
   padding-bottom: 30px;
-  margin-left: 80px;
+  margin-left: 100px;
   box-sizing: border-box;
   text-align: center;
   background-color: #008888;
 }
+
 @media screen and (max-width: 768px) {
   .side_nav a{
-    margin-left: 30px;}
+    margin-left: 50px;}
+    .site_nav li{
+      margin-bottom: 40px;
+    }
 }
 
 .nav{
@@ -237,235 +243,61 @@ body img{
 .color a{
   background-color: #48D1CC;
 }
-
-
-
-.content{
-  clear: both;
+@media screen and (max-width: 320px) {
+  .color a{
+    margin-bottom: 70px;}
 }
-.content img{
-  width: 330px;
-  float: left;
+
+
+
+body h1{
+  clear: both;
+  font-size:45px;
+  color: #008888;
+  font-family: Lithos Pro black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 320px) {
+  body h1{
+    margin-bottom: 0px;}
+}
+
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sign-info {
+  color: #48D1CC;
+  font-size: 120%;
+}
+
+.message{
   margin-left: 0px;
 }
-
-@media screen and (max-width: 768px) {
-  .content img{
-    float: left;
-    width: 280px;}
-  .doodle1{
-      display: none;
-    }
+.message ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  height: 200px;
+  overflow: auto;
 }
-.title {
-  width: 100%;
-  font-size: 40px;
-  font-family: Lithos Pro black;
-  color: #008888;
-  text-align: center;
-  margin-left: -339px;
-  padding-top: 50px;
+.message ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
 }
-
-@media screen and (max-width: 768px) {
-  .title {
-    margin-left:40px; }
+.message ul li:last-child {
+    margin: 0px;
 }
-@media screen and (max-width: 320px) {
-  .title {
-    margin-left:-5px; }
+.message ul .example-chat-username {
+    margin-right: 10px;
 }
 
-
-
-
-.story{
-  background-color: white;
-}
-.story_pic{
-  margin-left: 200px;
-  margin-bottom: 80px;
-}
-
-.story_pic img{
-  float: left;
-  width: 368px;
-  border-radius: 20px;
-  margin-right: 20px;
-  margin-left: -30px;
-}
-@media screen and (max-width: 768px) {
-  .story_pic img{
-    margin-top: 0px;
-    margin-left: 35px;}
-}
-@media screen and (max-width: 320px) {
-  .story_pic{
-    margin-left: 0px;
-    margin-top: -30px;
-  }
-  .story_pic img{
-    margin-left: 0px;
-    width: 320px;
-  border-radius: 0px;}
-}
-
-
-.story_pic :hover{
-  box-shadow: 1px 1px 6px #48D1CC, 0 0 2em #48D1CC;
-}
-.story_content{
-  float: left;
-  width:400px;
-  background-color: white;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 20px;
-  border-radius: 12px;
-  box-sizing: border-box;
-  margin-bottom: 80px;
-}
-@media screen and (max-width: 768px) {
-  .story_content{
-    margin-left: 227px;
-    margin-top: 20px;
-    width: 370px;}
-}
-@media screen and (max-width: 320px) {
-  .story_content{
-    margin-left: 0px;
-    margin-top: 0px;
-    width: 320px;
-  border-radius: 0px;}
-}
-
-
-
-
-.story_content h1{
-  font-size: 32px;
-  font-family: Arial;
-  color: #008888;
-  text-align: center;
-}
-.story_content p{
-  font-size: 18px;
-  line-height: 27px;
-  font-family: Arial;
-  color: #008888;
-}
-.story_content:hover{
-  box-shadow: 1px 1px 6px white, 0 0 2em white;
-}
-.click{
-  float: left;
-  width: 80px;
-  height: 30px;
-  border-radius: 10px;
-  background-color: skyblue;
-  color: white;
-  font-size: 18px;
-  font-family: Arial;
-  padding: 5px;
-  padding-left: 22px;
-  box-sizing: border-box;
-  margin-left: 230px;
-  margin-top: -20px;
-}
-
-@media screen and (max-width: 320px) {
-  .click{
-    margin-top: 0px;
-    margin-left: 100px;
-  }
-}
-
-
-.story2_pic{
-  margin-left: 300px;
-
-}
-.story2_pic img{
-  float: left;
-  width: 368px;
-  height: 372px;
-  border-radius: 20px;
-  margin-right: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .story2_pic img{
-    margin-top: 0px;
-    margin-left: -77px;}
-}
-@media screen and (max-width: 320px) {
-  .story2_pic{
-    margin-left: 0px;
-  }
-  .story2_pic img{
-    margin-left: 0px;
-    border-radius: 0px;
-    width: 320px;}
-}
-
-.story2_pic :hover{
-  box-shadow: 1px 1px 6px white, 0 0 2em white;
-}
-.story2_content{
-  float: left;
-  width:400px;
-  background-color: white;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 20px;
-  border-radius: 12px;
-  box-sizing: border-box;
-  margin-bottom: 80px;
-}
-
-@media screen and (max-width: 768px) {
-  .story2_content{
-    margin-left: 227px;
-    margin-top: 20px;
-    width: 370px;}
-}
-@media screen and (max-width: 320px) {
-  .story2_content{
-    margin-left: 0px;
-    margin-top: 0px;
-    width: 320px;
-  border-radius: 0px;}
-}
-
-
-.story2_content h1{
-  font-size: 32px;
-  font-family: Arial;
-  color: #008888;
-  text-align: center;
-}
-.story2_content p{
-  font-size: 18px;
-  line-height: 27px;
-  font-family: Arial;
-  color: #008888;
-}
-.story2_content:hover{
-  box-shadow: 1px 1px 6px white, 0 0 2em white;
-}
-
-.doodle2 img{
-  float: right;
-  width: 250px;
-  margin-top: -250px;
-  margin-bottom: 30px;
-  margin-top: 830px;
-}
-@media screen and (max-width: 768px) {
-  .doodle2 img{
-    display: none;
-  }
-}
 
 
 footer{
@@ -481,6 +313,7 @@ footer{
 }
 @media screen and (max-width: 320px) {
   footer{
+    margin-top: 40px;
     margin-bottom: 0px;}
 }
 
@@ -506,6 +339,7 @@ footer{
   width: 50px;
   margin-left: 20px;
 }
+
 @media screen and (max-width: 768px) {
   .foot img{
     width: 51px;}
@@ -516,6 +350,8 @@ footer{
     margin-bottom: 40px;
   }
 }
+
+
 .foot p{
   font-size: 14px;
   color: white;
@@ -523,19 +359,4 @@ footer{
   clear: both;
   margin-top:80px;
   margin-left:40px;
-}
-
-@media screen and (max-width: 768px) {
-  .foot p{
-    font-size: 12px;
-    margin-top:70px;
-    margin-left: 47px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .foot p{
-    font-size: 10px;
-    margin-top:30px;
-    margin-left: 50px; }
 }

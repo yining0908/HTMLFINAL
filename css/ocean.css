@@ -239,6 +239,7 @@ footer p{
   color: white;
   clear: both;
   padding-top: 25px;
+  text-decoration: none;
 }
 @media screen and (max-width: 768px) {
 .container{
