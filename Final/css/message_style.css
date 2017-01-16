@@ -1,0 +1,362 @@
+body{
+  width: 100%;
+  background-color: powderblue;
+  margin: 0px;
+}
+
+.disney img{
+  margin-top: 6px;
+  margin-left: 50px;
+  position: absolute;
+  width: 33px;
+}
+.disney p{
+  margin-top: 8px;
+  margin-left: 99px;
+  position: absolute;
+  font-size: 22px;
+  color: white;
+  font-family: Arial;
+}
+@media screen and (max-width: 768px) {
+  .disney img{
+    margin-top: 8px;
+    width: 28px;}
+  .disney p{
+      font-size: 18px;
+      margin-top: 12px;
+      margin-left: 85px;}
+}
+@media screen and (max-width: 320px) {
+  .disney img{
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 17px;}
+  .disney p{
+      font-size: 10px;
+      margin-top: 10px;
+      margin-left: 33px;}
+}
+
+
+.top img{
+  margin-left: 1200px;
+  margin-top: 5px;
+  position: absolute;
+  width: 20px;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  .top img{
+    margin-left: 645px;
+    width: 18px;}
+}
+
+@media screen and (max-width: 320px) {
+  .top img{
+    margin-left: 250px;
+    width: 12px;}
+}
+
+.login {
+  position: absolute;
+  font-family: Arial;
+  font-size: 20px;
+  color: white;
+  margin-left: 1230px;
+  margin-top: 8px;
+  z-index: 1000;
+}
+@media screen and (max-width: 768px) {
+  .login {margin-left: 675px;}
+}
+
+@media screen and (max-width: 320px) {
+  .login {
+    margin-left: 268px;
+    font-size: 13px;}
+}
+
+hr{
+  position: absolute;
+  width: 1250px;
+  height: 0px;
+  margin-left: 45px;
+  margin-top: 40px;
+  color: white;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  hr{width:705px;
+    margin-left: 22px;}
+}
+@media screen and (max-width: 320px) {
+  hr{width:290px;
+    margin-left: 5px;
+  margin-top: 30px;}
+}
+
+header{
+  position:absolute;
+  margin-top: 190px;
+  margin-left: 420px;
+  background-color:rgba(0,0,0,0.6);
+  border-radius: 100px;
+  width: 480px;
+  height: 180px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    margin-left: 225px;
+    width: 330px;
+    height: 135px;
+    margin-top: 70px;}
+}
+
+@media screen and (max-width: 320px) {
+  header{
+    margin-top: 50px;
+    margin-left: 85px;
+    width: 120px;
+    height: 45px;}
+}
+
+
+.logo p{
+  font-size: 60px;
+  font-family: Arial;
+  color: white;
+  padding-left: 52px;
+  margin-bottom: 30px;
+  margin-top: 22px;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .logo p{
+    font-size: 43px;
+    padding-left: 35px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    padding-top: 0px;}
+}
+@media screen and (max-width: 320px) {
+  .logo p{
+    font-size: 17px;
+    padding-left:9px;
+    margin-top: 13px;
+    margin-bottom: 10px;}
+}
+
+.slogan p{
+  font-family: Arial;
+  font-size: 18px;
+  color: 	#AAAAAA;
+  text-align: center;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .slogan p{
+    font-size: 15px;
+  padding-top: 10px;}
+}
+@media screen and (max-width: 320px) {
+  .slogan p{
+    display: none;
+  }
+}
+
+
+body img{
+  width: 100%;
+  float: left;
+  /*background-attachment: fixed;
+  background-position: center;
+  position: relative;*/
+}
+
+.side_nav{
+  clear: both;
+  margin-left: 200px;
+}
+@media screen and (max-width: 768px) {
+  .side_nav{
+    margin-left: 17px;}
+}
+
+.side_nav li{
+  list-style: none;
+  float: left;
+  /*margin-left: 200px;*/
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 320px) {
+  .side_nav li{
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+}
+
+
+.side_nav a{
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: 20px;
+  padding: 15px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #008888;
+}
+
+@media screen and (max-width: 768px) {
+  .side_nav a{
+    margin-left: 50px;}
+    .site_nav li{
+      margin-bottom: 40px;
+    }
+}
+
+.nav{
+  position: relative;
+}
+
+.side_nav li:hover>a{
+  background-color: #87CECB;
+}
+.side_nav ul a:hover{
+  background-color:#87CECB;
+    position: relative;
+}
+.color a{
+  background-color: #48D1CC;
+}
+@media screen and (max-width: 320px) {
+  .color a{
+    margin-bottom: 70px;}
+}
+
+
+
+body h1{
+  clear: both;
+  font-size:45px;
+  color: #008888;
+  font-family: Lithos Pro black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 320px) {
+  body h1{
+    margin-bottom: 0px;}
+}
+
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sign-info {
+  color: #48D1CC;
+  font-size: 120%;
+}
+
+.message{
+  margin-left: 0px;
+}
+.message ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  height: 200px;
+  overflow: auto;
+}
+.message ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.message ul li:last-child {
+    margin: 0px;
+}
+.message ul .example-chat-username {
+    margin-right: 10px;
+}
+
+
+
+footer{
+  clear: both;
+  width: 100%;
+  height: 160px;
+  background-color: #008888;
+}
+
+@media screen and (max-width: 768px) {
+  footer{
+    height: 140px;}
+}
+@media screen and (max-width: 320px) {
+  footer{
+    margin-top: 40px;
+    margin-bottom: 0px;}
+}
+
+.foot{
+  margin-left: 557px;
+  padding-top: 50px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .foot{
+    margin-left: 300px;
+    padding-top: 40px;}
+}
+@media screen and (max-width: 320px) {
+  .foot{
+    margin-left: 50px;
+  padding-top: 25px;}
+}
+
+
+.foot img{
+  width: 50px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .foot img{
+    width: 51px;}
+}
+@media screen and (max-width: 320px) {
+  .foot img{
+    width: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+
+.foot p{
+  font-size: 14px;
+  color: white;
+  font-family: Arial;
+  clear: both;
+  margin-top:80px;
+  margin-left:40px;
+}
